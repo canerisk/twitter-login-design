@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+  font-family: 'Inter', sans-serif;
+
+}
+*{
+    transition: all .2s;
+    scroll-behavior: smooth;
+
+    outline: none;
+    
+
+}
+.pers{
+  transform: rotateZ(-20deg);
+  transform: rotateX(-25deg) rotateY(-30deg);
+  z-index: -1;
+}
+.pers2{
+   transform: rotateZ(20deg);
+   transform: rotateX(25deg) rotateY(-25deg);
+   z-index: -1;
+}
